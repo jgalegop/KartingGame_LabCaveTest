@@ -157,6 +157,14 @@ namespace KartGame.Track
             gameOverCanvas.gameObject.SetActive(true);
             gameOverCanvas.SetScore(m_SessionBestLap.time, m_HistoricalBestLap.time);
 
+            // adds coins to total number of coins
+            CoinManager coinManager = FindObjectOfType<CoinManager>();
+            if (coinManager == null)
+            {
+                Debug.LogError("Coin Manager missing in scene");
+            }
+            coinManager.SetCoinsNumber();
+
         }
 
         void CheckRacerHitCheckpoint (IRacer racer, Checkpoint checkpoint)
