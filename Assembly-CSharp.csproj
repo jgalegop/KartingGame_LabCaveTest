@@ -87,6 +87,7 @@
     <Compile Include="Assets\Karting\Scripts\MyScripts\Coin.cs" />
     <Compile Include="Assets\Karting\Scripts\MyScripts\CoinManager.cs" />
     <Compile Include="Assets\Karting\Scripts\MyScripts\GameOverCanvas.cs" />
+    <Compile Include="Assets\Karting\Scripts\MyScripts\NewRecordCanvas.cs" />
     <Compile Include="Assets\Karting\Scripts\MyScripts\SceneLoader.cs" />
     <Compile Include="Assets\Karting\Scripts\Timeline\DirectorTrigger.cs" />
     <Compile Include="Assets\Karting\Scripts\Track\Checkpoint.cs" />

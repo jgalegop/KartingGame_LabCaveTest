@@ -21,6 +21,8 @@ namespace KartGame.Track
         public KartRepositioner kartRepositioner;
         [Tooltip("Reference to the Game Over Canvas")]
         public GameOverCanvas gameOverCanvas;
+        [Tooltip("Reference to the new record text Canvas")]
+        public NewRecordCanvas newRecordCanvas;
 
         bool m_IsRaceRunning;
         Dictionary<IRacer, Checkpoint> m_RacerNextCheckpoints = new Dictionary<IRacer, Checkpoint> (16);
@@ -209,7 +211,10 @@ namespace KartGame.Track
                         m_SessionBestLap.SetRecord (trackName, 1, racer, lapTime);
 
                     if (m_HistoricalBestLap.time > lapTime)
-                        m_HistoricalBestLap.SetRecord (trackName, 1, racer, lapTime);
+                    {
+                        m_HistoricalBestLap.SetRecord(trackName, 1, racer, lapTime);
+                        newRecordCanvas.gameObject.SetActive(true);
+                    }   
 
                     if (racerCurrentLap == raceLapTotal)
                     {
