@@ -155,7 +155,7 @@ namespace KartGame.Track
 
             // displays game over menu and sets score
             gameOverCanvas.gameObject.SetActive(true);
-            gameOverCanvas.SetScore(m_SessionBestRace.time, m_HistoricalBestRace.time);
+            gameOverCanvas.SetScore(m_SessionBestLap.time, m_HistoricalBestLap.time);
 
         }
 

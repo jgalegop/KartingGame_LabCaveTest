@@ -15,8 +15,8 @@ public class BestScoreDisplay : MonoBehaviour
 
     void Start()
     {
-        // we are only interested in this particular track, at 3 laps
-        bestTime.text = "Best time: " + TrackRecord.Load("ArtTest", 3).time.ToString(".##") + " s";
+        // we are only interested in this particular track, the time of one lap
+        bestTime.text = "Best time: " + TrackRecord.Load("ArtTest", 1).time.ToString(".##") + " s";
         mostCoins.text = "Most coins: " + PlayerPrefsController.GetMostCoins().ToString();
     }
 }
