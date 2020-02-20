@@ -19,6 +19,8 @@ namespace KartGame.Track
         public List<Checkpoint> checkpoints = new List<Checkpoint> ();
         [Tooltip("Reference to an object responsible for repositioning karts.")]
         public KartRepositioner kartRepositioner;
+        [Tooltip("Reference to the Game Over Canvas")]
+        public GameOverCanvas gameOverCanvas;
 
         bool m_IsRaceRunning;
         Dictionary<IRacer, Checkpoint> m_RacerNextCheckpoints = new Dictionary<IRacer, Checkpoint> (16);
@@ -150,6 +152,11 @@ namespace KartGame.Track
 
             TrackRecord.Save (m_HistoricalBestLap);
             TrackRecord.Save (m_HistoricalBestRace);
+
+            // displays game over menu and sets score
+            gameOverCanvas.gameObject.SetActive(true);
+            gameOverCanvas.SetScore(m_SessionBestRace.time, m_HistoricalBestRace.time);
+
         }
 
         void CheckRacerHitCheckpoint (IRacer racer, Checkpoint checkpoint)
@@ -204,7 +211,7 @@ namespace KartGame.Track
                             m_SessionBestRace.SetRecord (trackName, raceLapTotal, racer, raceTime);
 
                         if (m_HistoricalBestRace.time > raceTime)
-                            m_HistoricalBestLap.SetRecord (trackName, raceLapTotal, racer, raceTime);
+                            m_HistoricalBestRace.SetRecord (trackName, raceLapTotal, racer, raceTime);
 
                         racer.DisableControl ();
                         racer.PauseTimer ();
