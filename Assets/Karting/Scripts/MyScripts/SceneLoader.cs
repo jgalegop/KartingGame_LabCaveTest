@@ -37,6 +37,13 @@ public class SceneLoader : MonoBehaviour
         StartCoroutine(SceneLoadRoutine(buttonAction.Exit));
     }
 
+    // this allows in mobile to quit the app using the back button
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+    }
+
     // ---------------------------
 
     // all routines play button sound and wait some time

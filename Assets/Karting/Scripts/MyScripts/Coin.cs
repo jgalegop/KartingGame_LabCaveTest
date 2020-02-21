@@ -30,7 +30,7 @@ public class Coin : MonoBehaviour
 
     private void OnTriggerEnter(Collider otherCollider)
     {
-        if (otherCollider.name == "Kart")
+        if (otherCollider.name == "Kart") // make sure it is the player
         {
             // play sound
             AudioSource.PlayClipAtPoint(coinSound, Camera.main.transform.position, coinSoundVolume);
