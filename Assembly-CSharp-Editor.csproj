@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{533DB3B2-60A5-95E2-DB5B-28F72E31E613}</ProjectGuid>
+    <ProjectGuid>{F159A09A-81BA-DEBA-571C-9328BEEE3317}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -67,61 +67,49 @@
     <Compile Include="Assets\Karting\Scripts\KartSystems\KartMovement\Editor\KartMovementEditor.cs" />
     <Compile Include="Assets\Karting\Scripts\Utilities\Editor\RequireInterfaceAttributeDrawer.cs" />
     <Reference Include="Cinemachine">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.UIWidgets.Editor">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.UIWidgets.Editor.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/ScriptAssemblies/Unity.UIWidgets.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Connect.Share.Editor">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InteractiveTutorials.Core">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.UIWidgets">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.UIWidgets.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/ScriptAssemblies/Unity.UIWidgets.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.InteractiveTutorialsFramework">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.024">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.024.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.024.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -363,23 +351,8 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/PackageCache/com.unity.connect.share@1.0.9-preview/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/KartingGame_LabCave/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/Javier/OneDrive/Javs/GameDev/My_Projects/Others/Test_To_See_If_It_Works/KartingGame_LabCave - Copy - THIS WORKS/Library/PackageCache/com.unity.connect.share@1.0.9-preview/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -738,7 +711,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{4CA14CE7-AE05-44CC-B6D2-1A4736C5EFC7}</Project>
+      <Project>{BD71D338-3FF9-D09E-17D6-30468C21BC06}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
